@@ -1,0 +1,39 @@
+{
+  "melhor_modelo": "Random Forest",
+  "features": [
+    "temperatura",
+    "umidade_relativa",
+    "velocidade_vento",
+    "precipitacao_24h",
+    "ndvi",
+    "dias_sem_chuva",
+    "altitude",
+    "mes",
+    "historico_focos",
+    "indice_aridez",
+    "potencial_propagacao",
+    "deficit_hidrico",
+    "estacao_seca",
+    "ndvi_temp"
+  ],
+  "classes": [
+    "alto",
+    "baixo",
+    "médio"
+  ],
+  "metricas": {
+    "Random Forest": {
+      "accuracy": 0.73,
+      "f1_score": 0.7289684586609406,
+      "cv_mean": 0.7429166666666667,
+      "cv_std": 0.01875462905821151
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.73,
+      "f1_score": 0.7273153616056351,
+      "cv_mean": 0.7445833333333334,
+      "cv_std": 0.022071537730248395
+    }
+  },
+  "gerado_em": "2026-05-26T18:10:36.421274"
+}

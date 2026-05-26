@@ -1,0 +1,24 @@
+# OrbitFire AI — GAIE | FIAP Global Solution
+# Python >= 3.10
+
+# Core ML
+scikit-learn==1.4.2
+numpy==1.26.4
+pandas==2.2.2
+
+# Interpretabilidade
+shap==0.45.1
+
+# Visualização
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Deploy / Interface
+streamlit==1.35.0
+
+# Persistência
+joblib==1.4.2
+
+# Notebook
+jupyter==1.0.0
+ipykernel==6.29.5
