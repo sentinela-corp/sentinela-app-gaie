@@ -165,7 +165,7 @@ O app oferece:
 
 🔗 **GitHub:** [github.com/sentinela-corp/sentinela-app-gaie](https://github.com/sentinela-corp/sentinela-app-gaie)
 
-**Turma:** [4ESR] | **Professor(a):** [Francisco Elanio Bezerra] | **Ano:** 2026
+**Turma:** 4ESR | **Professor(a):** Francisco Elanio Bezerra | **Ano:** 2026
 
 ---
 
