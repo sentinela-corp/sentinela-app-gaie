@@ -9,6 +9,20 @@
 
 ---
 
+## 👥 Equipe — Sentinela Corp
+
+| Nome | RM |
+|---|---|
+| Deivison Pertel | RM 550803 |
+| Eduardo Akira Murata | RM 98713 |
+| Wesley Souza de Oliveira | RM 97874 |
+
+🔗 **GitHub:** [github.com/sentinela-corp/sentinela-app-gaie](https://github.com/sentinela-corp/sentinela-app-gaie)
+
+**Turma:** 4ESR | **Professor(a):** Francisco Elanio Bezerra | **Ano:** 2026
+
+---
+
 ## 📁 Estrutura do Repositório
 
 ```
@@ -152,20 +166,6 @@ O app oferece:
 | **ODS 13** — Ação Climática | Detecção precoce de queimadas reduz emissão de CO₂ e impactos climáticos |
 | **ODS 15** — Vida Terrestre | Proteção de biomas como Cerrado e Amazônia |
 | **ODS 11** — Cidades Sustentáveis | Alertas para populações em áreas de risco |
-
----
-
-## 👥 Equipe — Sentinela Corp
-
-| Nome | RM |
-|---|---|
-| Deivison Pertel | RM 550803 |
-| Eduardo Akira Murata | RM 98713 |
-| Wesley Souza de Oliveira | RM 97874 |
-
-🔗 **GitHub:** [github.com/sentinela-corp/sentinela-app-gaie](https://github.com/sentinela-corp/sentinela-app-gaie)
-
-**Turma:** 4ESR | **Professor(a):** Francisco Elanio Bezerra | **Ano:** 2026
 
 ---
 
