@@ -1,24 +1,12 @@
 # OrbitFire AI — GAIE | FIAP Global Solution
-# Python >= 3.10
+# Sentinela Corp — https://github.com/sentinela-corp/sentinela-app-gaie
+# Autores: Deivison Pertel (RM 550803) · Eduardo Akira Murata (RM 98713) · Wesley Souza de Oliveira (RM 97874)
 
-# Core ML
-scikit-learn==1.4.2
-numpy==1.26.4
-pandas==2.2.2
-
-# Interpretabilidade
-shap==0.45.1
-
-# Visualização
-matplotlib==3.8.4
-seaborn==0.13.2
-
-# Deploy / Interface
-streamlit==1.35.0
-
-# Persistência
-joblib==1.4.2
-
-# Notebook
-jupyter==1.0.0
-ipykernel==6.29.5
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+shap
+streamlit
+joblib
