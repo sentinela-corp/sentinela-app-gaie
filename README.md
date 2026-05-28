@@ -1,7 +1,7 @@
 # 🔥 OrbitFire AI — Previsão de Risco de Queimadas
 
 **GAIE — Generative AI for Engineering | FIAP Global Solution**
-**Squad: Sentinela Corp** · [github.com/sentinela-corp/sentinela-app-gaie](https://github.com/sentinela-corp/sentinela-app-gaie)
+**Squad: Sentinela Corp**
 
 > Sistema de Machine Learning para classificação de risco de queimadas (baixo / médio / alto) com base em variáveis climáticas e satelitais, com interpretabilidade via SHAP e deploy em Streamlit.
 
@@ -17,9 +17,10 @@
 | Eduardo Akira Murata | RM 98713 |
 | Wesley Souza de Oliveira | RM 97874 |
 
-🔗 **GitHub:** [github.com/sentinela-corp/sentinela-app-gaie](https://github.com/sentinela-corp/sentinela-app-gaie)
-
 **Turma:** 4ESR | **Professor(a):** Francisco Elanio Bezerra | **Ano:** 2026
+
+🔗 **Repositório:** [github.com/sentinela-corp/sentinela-app-gaie](https://github.com/sentinela-corp/sentinela-app-gaie)
+🚀 **Aplicação:** [sentinela-app-gaie-xv4nsjyict6znf2s7jezap.streamlit.app](https://sentinela-app-gaie-xv4nsjyict6znf2s7jezap.streamlit.app/)
 
 ---
 
@@ -176,8 +177,3 @@ O app oferece:
 - Canadian Forest Service — [Fire Weather Index (FWI)](https://cwfis.cfs.nrcan.gc.ca/background/summary/fwi)
 - Lundberg & Lee (2017) — [A Unified Approach to Interpreting Model Predictions (SHAP)](https://arxiv.org/abs/1705.07874)
 - Scikit-learn Documentation — [sklearn.ensemble](https://scikit-learn.org/stable/modules/ensemble.html)
-
----
-
-*Desenvolvido pela **Sentinela Corp** para a Global Solution FIAP — GAIE (Generative AI for Engineering)*
-*[github.com/sentinela-corp/sentinela-app-gaie](https://github.com/sentinela-corp/sentinela-app-gaie)*
