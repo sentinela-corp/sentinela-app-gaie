@@ -212,16 +212,27 @@ with tab1:
             scaler      = modelo.named_steps["scaler"]
             X_scaled    = scaler.transform(entrada_eng)
 
-            explainer   = shap.TreeExplainer(inner_model)
-            shap_vals   = explainer.shap_values(X_scaled)
+            explainer = shap.TreeExplainer(inner_model)
+            shap_vals = explainer.shap_values(X_scaled)
 
-            # Para multiclasse, pegar a classe predita
-            idx_classe  = list(classes).index(risco_pred)
+            # Índice da classe predita
+            idx_classe = list(inner_model.classes_).index(risco_pred)
 
+            # Compatibilidade: SHAP antigo → lista de arrays 2D
+            #                  SHAP novo  → array 3D (samples, features, classes)
             if isinstance(shap_vals, list):
-                sv = shap_vals[idx_classe][0]
-            else:
+                # Lista de arrays shape (n_samples, n_features)
+                sv = np.array(shap_vals[idx_classe]).flatten()[:len(features)]
+            elif shap_vals.ndim == 3:
+                # Array 3D shape (n_samples, n_features, n_classes)
+                sv = shap_vals[0, :, idx_classe]
+            elif shap_vals.ndim == 2:
+                # Array 2D shape (n_samples, n_features)
                 sv = shap_vals[0]
+            else:
+                sv = shap_vals.flatten()[:len(features)]
+
+            sv = np.array(sv, dtype=float).flatten()[:len(features)]
 
             fig, ax = plt.subplots(figsize=(9, 5))
             sv_series = pd.Series(sv, index=features).sort_values()
